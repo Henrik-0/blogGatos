@@ -213,16 +213,10 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 
-    "header header"
     "main aside"
-    "footer footer"
     ;
 
     padding-inline: 2.8rem;
-  }
-
-  header {
-    grid-area: header;
   }
 
   main{
@@ -233,9 +227,5 @@ footer {
 
   aside {
     grid-area: aside;
-  }
-
-  footer {
-    grid-area: footer;
   }
 }
